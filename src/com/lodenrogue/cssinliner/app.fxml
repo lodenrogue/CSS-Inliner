@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lodenrogue.cssinliner.AppController">
+   <children>
+      <Label layoutX="190.0" layoutY="26.0" text="CSS File" />
+      <Label layoutX="179.0" layoutY="77.0" text="HTML File" />
+      <Button fx:id="chooseCssBtn" layoutX="259.0" layoutY="21.0" mnemonicParsing="false" onAction="#onButtonPressed" text="Choose.." />
+      <Button fx:id="chooseHtmlBtn" layoutX="259.0" layoutY="72.0" mnemonicParsing="false" onAction="#onButtonPressed" text="Choose.." />
+      <TextArea fx:id="outputArea" layoutX="14.0" layoutY="177.0" prefHeight="212.0" prefWidth="570.0" />
+      <Label fx:id="cssFileLbl" layoutX="343.0" layoutY="26.0" text="TEXT" />
+      <Label fx:id="htmlFileLbl" layoutX="343.0" layoutY="77.0" text="TEXT" />
+      <Button fx:id="inlineBtn" layoutX="259.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonPressed" prefHeight="27.0" prefWidth="73.0" text="Inline" />
+   </children>
+</AnchorPane>
